@@ -30,7 +30,7 @@ A simple and efficient Todo List application built with **React** and **Tailwind
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/anayaraj/react-todo-app.git
+git clone https://github.com/Anayaraj02/Todo_List
 
 # 2. Go into the project folder
 cd react-todo-app
