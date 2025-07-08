@@ -14,6 +14,7 @@ function Todo() {
     localStorage.setItem("tasks", JSON.stringify(tasks));
   }, [tasks]);
 
+  // Function to controll Add Todo
   const handleAdd = () => {
     const trimmed = input.trim();
     if (!trimmed) return;
