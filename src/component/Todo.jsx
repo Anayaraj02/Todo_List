@@ -39,7 +39,7 @@ function Todo() {
     setTasks(updated);
   };
 
-  // Function to create handel the Save Button
+   // Function to create handel the Save Button
   const handelSaveButton = (index) => {
     const trimmedText = editedText.trim();
     if (trimmedText === "") return;
@@ -49,7 +49,7 @@ function Todo() {
     setEditIndex(null);
     setEditedText("");
   };
-
+  
   // If want to clear all the todo then use this function
   const handleClearAll = () => {
     setTasks([]);
@@ -132,7 +132,7 @@ function Todo() {
                     {/* Save Button */}
                       <button
                         className="text-green-600 hover:underline"
-                        onClick={() => handelSaveButton(task.id)}
+                        onClick={() => handelSaveButton(index)}
                       >
                         Save
                       </button>
